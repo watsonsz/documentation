@@ -17,8 +17,8 @@ flex-direction:column; align-items: center;}
 .nav-link{display:flex; align-items: center; height: 10rem; 
 color: var(--textprimary);text-decoration: none;min-width: 2rem;}
 @media only screen and (max-width: 600px){
-    .navbar{bottom:0; width: 100vw; height:5rem;}
-    .navbar-nav {flex-direction: row;}
+    .navbar{width: 5rem;}
+    main {margin-left: 5rem;}
 
 }
 
