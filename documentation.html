@@ -4,6 +4,8 @@
        <link rel="stylesheet" type="text/css" href="documentation.css">
     </head>
     <body>
+        <nav id="navbar">
+        </nav>
         <main id="main-doc">
             <section class="main-section" id="Challenges_of_Coding">
                 <header><h1>The Challenges of Coding.</h1></header>
@@ -43,18 +45,26 @@
             </section>
             <section class="main-section" id="Background_Images">
                 <header><h1>Background Images</h1></header>
+                <p>Backgound images..are a dick to do. The code is logically very simple, but I learned quickly that simply putting the code
+                    into CSS will not, a background image make. The code is very simple: </p>
+                    <code>  <p> body { background-image: url("texture.jpg");</p>
+                            <p>background-repeat: no-repeat;</p>
+                            <p> background-position: fixed;</p>
+                            <p>background-size: cover;}</p></code>
+                <p>Unfortunately the ORDER in which you put code is a vital element, and it took me several tries to get it right, and I am not
+                   certain I truly have it sorted.</p>
+
             </section>
             <section class="main-section" id="A_Navigation_Bar">
                 <header><h1>A Navigation Bar</h1></header>
+                <p>My final challenge as shown on this page, is a responsive, aesthetically pleasing Navigation Bar. Using list elements, 
+                    links, and CSS Flexbox all in tandem was an interesting challenge, but as a mentor of mine says "Steal Like an Artist"
+                     and there was a handy Youtube video available to help me along. Tell me what you think of the Navigation on this page.</p>
             </section>          
         </main>
     </body>
 </html>
 <!-- 
-User Story #5: The .main-section elements should contain at least 10 p elements total (not each).
-
-User Story #6: The .main-section elements should contain at least 5 code elements total (not each).
-
 User Story #8: I can see a nav element with a corresponding id="navbar".
 
 User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical 
